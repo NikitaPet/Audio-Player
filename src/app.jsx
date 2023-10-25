@@ -8,7 +8,7 @@ import { clearAccount } from 'back/slices/accountSlice'
 import { TokenRefreshTimerSelector } from 'app/access/tokenRefresh'
 
 import { AppRoutes } from './app/routes'
-import { appThemes } from './app/appThemes' 
+import { appThemes } from './app/appThemes'
 import { GlobalStyle } from './app/globalStyle'
 import { AppStyle as Style } from './app/appStyle'
 
