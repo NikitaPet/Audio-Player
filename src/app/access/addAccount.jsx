@@ -40,7 +40,7 @@ export const RequestSelector = ({ requestData, responseReceiver }) => {
 
     const responce = () => {
         const responseData = { data, isLoading, isSuccess, error: null }
-        if (isError) responseData.error = error.data
+        if (isError) responseData.error = error
         responseReceiver(responseData)
     }
 
