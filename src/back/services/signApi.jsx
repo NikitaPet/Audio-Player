@@ -1,6 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
-export const BASE_API_URL = 'https://painassasin.online'
+export const BASE_API_URL = 'https://skypro-music-api.skyeng.tech'
 
 const TRACKS_TAG = { type: 'TRACKS', id: 'LIST' }
 const FAVORS_TAG = { type: 'FAVORS', id: 'LIST' }
